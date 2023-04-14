@@ -6,9 +6,10 @@
 
     <changeSet id="create-brand-table" author="christoph">
         <createTable tableName="brand">
-            <column name="id" type="bigint" autoIncrement="true">
+            <column name="idBrand" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false" />
             </column >
+            
             <column name="name" type="varchar(50)">
                 <constraints nullable="false" />
             </column >

@@ -6,7 +6,7 @@
 
 <changeSet id="create-car-table" author="augustin">
     <createTable tableName="car">
-        <column name="id" type="bigint" autoIncrement="true">
+        <column name="idCar" type="bigint" autoIncrement="true">
             <constraints primaryKey="true" nullable="false" />
         </column>
 
@@ -24,7 +24,7 @@
         baseColumnNames="model"
         constraintName="fk_car_model"
         referencedTableName="model"
-        referencedColumnNames="id" />
+        referencedColumnNames="idModel" />
 </changeSet>
 
     <changeSet id="drop-price-column" author="augustin">

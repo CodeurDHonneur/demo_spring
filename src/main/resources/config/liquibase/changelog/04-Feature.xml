@@ -7,7 +7,7 @@
     <changeSet id="create-feature-table" author="augustin">
         <createTable tableName="feature">
         
-            <column name="id" type="bigint" autoIncrement="true">
+            <column name="idFeature" type="bigint" autoIncrement="true">
                 <constraints primaryKey="true" nullable="false" />
             </column>
 

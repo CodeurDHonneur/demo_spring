@@ -20,14 +20,14 @@
             baseColumnNames="car"
             constraintName="fk_carfeature_car"
             referencedTableName="car"
-            referencedColumnNames="id"  />
+            referencedColumnNames="idCar"  />
 
         <addForeignKeyConstraint 
             baseTableName="carfeature"
             baseColumnNames="feature"
             constraintName="fk_carfeature_feature"
             referencedTableName="feature"
-            referencedColumnNames="id"   />
+            referencedColumnNames="idFeature"   />
 
 
     </changeSet>

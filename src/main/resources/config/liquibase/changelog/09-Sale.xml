@@ -39,14 +39,14 @@
             baseColumnNames="car"
             constraintName="fk_sale_car"
             referencedTableName="car"
-            referencedColumnNames="id" />
+            referencedColumnNames="idCar" />
 
         <addForeignKeyConstraint
             baseTableName="sale"
             baseColumnNames="customer"
             constraintName="fk_sale_customer"
             referencedTableName="customer"
-            referencedColumnNames="id" />
+            referencedColumnNames="idCustomer" />
             
     </changeSet>
 
